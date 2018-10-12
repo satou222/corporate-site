@@ -413,14 +413,14 @@ h1 {
     }
   } // min-width: 551px
 } // news.html用
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
+// .container {
+//   position: relative;
+//   width: 100%;
+//   max-width: 960px;
+//   margin: 0 auto;
+//   padding: 0 20px;
+//   box-sizing: border-box;
+// }
 
 #sub_cover .news_area h2 {
   text-align: center; // vertical-align:middle;
@@ -469,7 +469,7 @@ h1 {
   font-size: 15px;
   font-size: 1.5rem;
   font-weight: bold;
-  padding-top: 17px;
+  // padding-top: 17px;
   padding-bottom: 15px;
 }
 
@@ -508,7 +508,7 @@ span {
   font-weight: bold;
   background-color: #f3f9fb;
   padding: 15px;
-  margin-top: 30px;
+  // margin-top: 30px;
   margin-bottom: 0px;
 }
 
@@ -543,7 +543,7 @@ a {
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: bold;
-  margin: -9px;
+  margin:0 ;
   letter-spacing: 0.2rem;
 }
 
@@ -558,7 +558,7 @@ a {
     font-size: 32px;
     font-size: 3.2rem;
     font-weight: bold;
-    margin: 1px;
+    margin:0;
     letter-spacing: 0.2rem
   }
 }
@@ -569,21 +569,21 @@ a {
   }
 }
 
-@media (min-width: 550px) {
-  #sub_cover {
-    padding: 80px 0
-  }
+// @media (min-width: 550px) {
+//   #sub_cover {
+//     padding: 80px 0
+//   }
 
-  #sub_cover h2 {
-    text-align: center;
-    color: white;
-    font-size: 32px;
-    font-size: 3.2rem;
-    font-weight: bold;
-    margin: 0;
-    letter-spacing: 0.2rem
-  }
-}
+//   #sub_cover h2 {
+//     text-align: center;
+//     color: white;
+//     font-size: 32px;
+//     font-size: 3.2rem;
+//     font-weight: bold;
+//     margin: 0;
+//     letter-spacing: 0.2rem
+//   }
+// }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx) {
