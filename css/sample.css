@@ -115,6 +115,7 @@ header {
         margin-left: 70px; } }
 
 #service_area {
+  background-color: white;
   padding-top: 20px; }
   @media (min-width: 551px) {
     #service_area {
@@ -179,7 +180,6 @@ footer {
   padding-top: 20px; }
   @media (max-width: 550px) {
     footer .container {
-      margin: 0;
       padding: 0; }
     footer .sp {
       padding: 0 6%;
@@ -245,21 +245,21 @@ h1 {
   margin: 0;
   padding: 0; }
 
-#news_area {
+#sub_cover .news_area {
   text-align: center;
   vertical-align: middle;
   background-image: url("../images/news/sub_cover.jpg");
   height: 100px;
   background-size: cover; }
   @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
-    #news_area {
+    #sub_cover .news_area {
       background-image: url("../images/news/sub_cover@2x.jpg"); } }
   @media (min-width: 551px) {
-    #news_area {
+    #sub_cover .news_area {
       text-align: left;
       height: 200px;
       padding: 0; }
-      #news_area img {
+      #sub_cover .news_area img {
         margin-top: 180px;
         margin-left: 70px; } }
 
@@ -268,10 +268,10 @@ h1 {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 20px;
   box-sizing: border-box; }
 
-#news_area h2 {
+#sub_cover .news_area h2 {
   text-align: center;
   color: white;
   font-size: 16px;
@@ -281,7 +281,7 @@ h1 {
   letter-spacing: 0.2rem; }
 
 @media (min-width: 551px) {
-  #news_area h2 {
+  #sub_cover .news_area h2 {
     text-align: center;
     color: white;
     font-size: 32px;
@@ -485,7 +485,8 @@ a {
 #contents #main h2.company_title {
   margin-bottom: 0px; }
 
-#contents #main th, #contents #main td {
+#contents #main th,
+#contents #main td {
   padding: 20px 0;
   color: #626262;
   font-size: 14px;
