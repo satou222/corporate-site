@@ -181,7 +181,7 @@ header {
 }
 
 #service_area {
-background-color:white;
+  background-color: white;
   padding-top: 20px;
 
   @media (min-width: 551px) {
@@ -268,8 +268,10 @@ background-color:white;
         margin-bottom: 20px;
 
         span {
+          color: #42b9d0;
+          font-weight: bold;
           display: inline;
-          margin-bottom: 0px;
+          margin-bottom: 0px
         }
       } // li
     } // .news_lists
@@ -421,7 +423,6 @@ h1 {
 //   padding: 0 20px;
 //   box-sizing: border-box;
 // }
-
 #sub_cover .news_area h2 {
   text-align: center; // vertical-align:middle;
   color: white;
@@ -468,8 +469,7 @@ h1 {
   border-bottom: 3px solid #42b9d0;
   font-size: 15px;
   font-size: 1.5rem;
-  font-weight: bold;
-  // padding-top: 17px;
+  font-weight: bold; // padding-top: 17px;
   padding-bottom: 15px;
 }
 
@@ -493,7 +493,7 @@ span {
   span {
     color: #42b9d0;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     display: inline;
     font-weight: bold;
     margin-bottom: 3px;
@@ -507,8 +507,7 @@ span {
   letter-spacing: 0.2rem;
   font-weight: bold;
   background-color: #f3f9fb;
-  padding: 15px;
-  // margin-top: 30px;
+  padding: 15px; // margin-top: 30px;
   margin-bottom: 0px;
 }
 
@@ -543,7 +542,7 @@ a {
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: bold;
-  margin:0 ;
+  margin: 0;
   letter-spacing: 0.2rem;
 }
 
@@ -558,7 +557,7 @@ a {
     font-size: 32px;
     font-size: 3.2rem;
     font-weight: bold;
-    margin:0;
+    margin: 0;
     letter-spacing: 0.2rem
   }
 }
@@ -573,7 +572,6 @@ a {
 //   #sub_cover {
 //     padding: 80px 0
 //   }
-
 //   #sub_cover h2 {
 //     text-align: center;
 //     color: white;
@@ -584,7 +582,6 @@ a {
 //     letter-spacing: 0.2rem
 //   }
 // }
-
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx) {
   #sub_cover {

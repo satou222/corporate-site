@@ -171,6 +171,8 @@ header {
       font-size: 1.4rem;
       margin-bottom: 20px; }
       #news_area .news_lists li span {
+        color: #42b9d0;
+        font-weight: bold;
         display: inline;
         margin-bottom: 0px; } }
 
@@ -317,7 +319,7 @@ span {
   span {
     color: #42b9d0;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     display: inline;
     font-weight: bold;
     margin-bottom: 3px; } }
